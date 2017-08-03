@@ -2,6 +2,8 @@
 
 The Forms GTK Toolkit is a collection of helper functions and custom controls for Xamarin.Forms GTK Backend.
 
+![](images/formsgtktoolkit.png)
+
 ## Features
 
 ### Controls
