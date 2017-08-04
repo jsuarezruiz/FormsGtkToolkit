@@ -8,3 +8,5 @@ Features:
 - Configurable row height.
 - Configurable column widths.
 - Customizable colors.
+
+![](../../images/datagrid.png)
