@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FormsGtkToolkit.Samples.Views.DataGridView"
+             xmlns:controls="clr-namespace:FormsGtkToolkit.Controls;assembly=FormsGtkToolkit.Controls"
+             Title="DataGrid">
+    <ContentPage.Content>
+        <Grid>
+            <controls:DataGrid
+                ItemsSource="{Binding ConstructorStandings}"
+                SelectionMode="Single"
+                CellBackgroundColor="White"
+                CellTextColor="Black">
+                <controls:DataGrid.Columns>
+                    <controls:DataGridColumn Title="Pos"  />
+                    <controls:DataGridColumn Title="Constructor" ColumnWidth="150" Resizable="false" />
+                    <controls:DataGridColumn Title="Nationality" />
+                    <controls:DataGridColumn Title="Points" />
+                    <controls:DataGridColumn Title="Wins" />
+                </controls:DataGrid.Columns>
+            </controls:DataGrid>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FormsGtkToolkit.Samples.Views.ColorPickerView"
+             xmlns:controls="clr-namespace:FormsGtkToolkit.Controls;assembly=FormsGtkToolkit.Controls"
+             Title="ColorPicker">
+    <ContentPage.Content>
+        <Grid>
+            <controls:ColorPicker />
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+   <metadata minClientVersion="2.8.1">
+       <id>FormsGtkToolkit.Controls</id>
+       <version>$version$</version>
+       <title>Xamarin.Forms Gtk Toolkit: Controls</title>
+       <authors>Javier Suárez Ruiz</authors>
+       <owners>Javier Suárez Ruiz</owners>
+       <projectUrl>https://github.com/jsuarezruiz/FormsGtkToolkit</projectUrl>
+       <licenseUrl>https://github.com/jsuarezruiz/FormsGtkToolkit/blob/master/LICENSE</licenseUrl>
+       <iconUrl>https://github.com/jsuarezruiz/FormsGtkToolkit/blob/master/images/xamagongtk.64x64.png</iconUrl>
+       <requireLicenseAcceptance>false</requireLicenseAcceptance>
+       <description>
+         Xamarin.Forms Gtk Toolkit Controls Library
+         Built against: 3.0.0.0
+       </description>
+       <summary>Xamarin.Forms Gtk Toolkit Controls Library</summary>
+       <tags>community, toolkit, xamarin, pcl, linux, xamarin.forms, gtk, controls, widgets</tags>
+       <dependencies>
+         <dependency id="Xamarin.Forms" version="3.0.0.0" />
+       </dependencies>
+     <releaseNotes>
+     </releaseNotes>
+   </metadata>
+   <files>
+      <!-- Core -->
+     <file src="src/Controls/Controls/bin/Release/FormsGtkToolkit.Controls.dll" target="lib/portable-net45+wp80+win8+wpa81/FormsGtkToolkit.Controls.dll" />
+     <file src="src/Controls/Controls/bin/Release/FormsGtkToolkit.Controls.xml" target="lib/portable-net45+wp80+win8+wpa81/FormsGtkToolkit.Controls.xml" />
+     <file src="src/Controls/Controls/bin/Release/FormsGtkToolkit.Controls.pdb" target="lib/portable-net45+wp80+win8+wpa81/FormsGtkToolkit.Controls.pdb" />
+     <!-- GTK -->
+     <file src="src/Controls/Controls/bin/Release/FormsGtkToolkit.Controls.dll" target="lib/net45/FormsGtkToolkit.Controls.dll" />
+     <file src="src/Controls/Controls/bin/Release/FormsGtkToolkit.Controls.pdb" target="lib/net45/FormsGtkToolkit.Controls.pdb" />
+     <file src="src/Controls/Controls/bin/Release/FormsGtkToolkit.Controls.xml" target="lib/net45/FormsGtkToolkit.Controls.xml" />
+     <file src="src/Controls/Controls.GTK/bin/Release/FormsGtkToolkit.Controls.GTK.dll" target="lib/net45/FormsGtkToolkit.Controls.GTK.dll" />
+     <file src="src/Controls/Controls.GTK/bin/Release/FormsGtkToolkit.Controls.GTK.pdb" target="lib/net45/FormsGtkToolkit.Controls.GTK.pdb" />
+     <file src="src/Controls/Controls.GTK/bin/Release/FormsGtkToolkit.Controls.GTK.xml" target="lib/net45/FormsGtkToolkit.Controls.GTK.xml" />   
+   </files>
+</package>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FormsGtkToolkit.Samples.Views.MainView"
+             xmlns:controls="clr-namespace:FormsGtkToolkit.Controls;assembly=FormsGtkToolkit.Controls"
+             Title="Custom GTK Controls">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Button x:Name="CalendarBtn" Text="Calendar" />
+                <Button x:Name="ColorButtonBtn" Text="ColorButton" />
+                <Button x:Name="ColorPickerBtn" Text="ColorPicker" />
+                <Button x:Name="DataGridBtn" Text="DataGrid" />
+                <Button x:Name="DateTimePickerBtn" Text="DateTimePicker" />
+                <Button x:Name="ExpanderBtn" Text="Expander" />
+                <Button x:Name="FileButtonBtn" Text="FileButton" />
+                <Button x:Name="FontButtonBtn" Text="FontButton" />
+                <Button x:Name="GridSplitterBtn" Text="GridSplitter" />
+                <Button x:Name="HyperLinkBtn" Text="HyperLink" />
+                <Button x:Name="ImageCheckBoxBtn" Text="ImageCheckBox" />
+                <Button x:Name="ScaleButtonBtn" Text="ScaleButton" />
+                <Button x:Name="SeparatorBtn" Text="Separator" />
+                <Button x:Name="StatusBarBtn" Text="StatusBar" />
+                <Button x:Name="TextEditorBtn" Text="TextEditor" />
+                <Button x:Name="ToggleButtonBtn" Text="ToggleButton" />
+                <Button x:Name="TreeViewBtn" Text="TreeView" />
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FormsGtkToolkit.Samples.Views.SeparatorView"
+             xmlns:controls="clr-namespace:FormsGtkToolkit.Controls;assembly=FormsGtkToolkit.Controls"
+             Title="Separator">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label 
+                Text="Text 1"/>
+            <controls:Separator
+                Orientation="Horizontal"/>
+            <Label 
+                Text="Text 2"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

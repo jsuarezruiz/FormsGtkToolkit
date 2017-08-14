@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FormsGtkToolkit.Samples.Views.ImageCheckBoxView"
+             xmlns:controls="clr-namespace:FormsGtkToolkit.Controls;assembly=FormsGtkToolkit.Controls"
+             Title="ImageCheckBox">
+    <ContentPage.Content>
+        <StackLayout>
+            <controls:ImageCheckBox
+                CheckedImage="checkbox_full.png"
+                UncheckedImage="checkbox_empty.png"
+                HeightRequest="100"
+                WidthRequest="100"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

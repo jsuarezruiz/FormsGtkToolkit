@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FormsGtkToolkit.Samples.Views.StatusBarView"
+             xmlns:controls="clr-namespace:FormsGtkToolkit.Controls;assembly=FormsGtkToolkit.Controls"
+             Title="StatusBar">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button 
+                x:Name="PushBtn"
+                Text="Push"/>
+            <Button
+                x:Name="PopBtn"
+                Text="Pop"/>
+            <controls:StatusBar
+                x:Name="StatusBar"
+                TextColor="Black"
+                HeightRequest="50"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
