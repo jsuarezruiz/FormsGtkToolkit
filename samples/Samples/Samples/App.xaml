@@ -3,8 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FormsGtkToolkit.Samples.App">
 	<Application.Resources>
-
-		<!-- Application resource dictionary -->
-
-	</Application.Resources>
+        <ResourceDictionary>
+            <!-- Application resource dictionary -->
+        </ResourceDictionary>
+    </Application.Resources>
 </Application>
