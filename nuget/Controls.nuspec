@@ -12,27 +12,21 @@
        <requireLicenseAcceptance>false</requireLicenseAcceptance>
        <description>
          Xamarin.Forms Gtk Toolkit Controls Library
-         Built against: 3.0.0.0
+         Built against: 2.6.0.174846-nightly
        </description>
        <summary>Xamarin.Forms Gtk Toolkit Controls Library</summary>
        <tags>community, toolkit, xamarin, pcl, linux, xamarin.forms, gtk, controls, widgets</tags>
        <dependencies>
-         <dependency id="Xamarin.Forms" version="3.0.0.0" />
+         <dependency id="Xamarin.Forms" version="2.6.0.174846-nightly" />
        </dependencies>
      <releaseNotes>
      </releaseNotes>
    </metadata>
    <files>
       <!-- Core -->
-     <file src="src/Controls/Controls/bin/Release/FormsGtkToolkit.Controls.dll" target="lib/portable-net45+wp80+win8+wpa81/FormsGtkToolkit.Controls.dll" />
-     <file src="src/Controls/Controls/bin/Release/FormsGtkToolkit.Controls.xml" target="lib/portable-net45+wp80+win8+wpa81/FormsGtkToolkit.Controls.xml" />
-     <file src="src/Controls/Controls/bin/Release/FormsGtkToolkit.Controls.pdb" target="lib/portable-net45+wp80+win8+wpa81/FormsGtkToolkit.Controls.pdb" />
-     <!-- GTK -->
-     <file src="src/Controls/Controls/bin/Release/FormsGtkToolkit.Controls.dll" target="lib/net45/FormsGtkToolkit.Controls.dll" />
-     <file src="src/Controls/Controls/bin/Release/FormsGtkToolkit.Controls.pdb" target="lib/net45/FormsGtkToolkit.Controls.pdb" />
-     <file src="src/Controls/Controls/bin/Release/FormsGtkToolkit.Controls.xml" target="lib/net45/FormsGtkToolkit.Controls.xml" />
-     <file src="src/Controls/Controls.GTK/bin/Release/FormsGtkToolkit.Controls.GTK.dll" target="lib/net45/FormsGtkToolkit.Controls.GTK.dll" />
-     <file src="src/Controls/Controls.GTK/bin/Release/FormsGtkToolkit.Controls.GTK.pdb" target="lib/net45/FormsGtkToolkit.Controls.GTK.pdb" />
-     <file src="src/Controls/Controls.GTK/bin/Release/FormsGtkToolkit.Controls.GTK.xml" target="lib/net45/FormsGtkToolkit.Controls.GTK.xml" />   
+	  <file src="..\src\Controls\Controls\bin\Release\netstandard2.0\FormsGtkToolkit.Controls.*" target="lib\netstandard2.0" />
+	  <!-- GTK -->
+	  <file src="..\src\Controls\Controls\bin\Release\netstandard2.0\FormsGtkToolkit.Controls.*" target="lib\net45" />
+      <file src="..\src\Controls\Controls.GTK\bin\Release\FormsGtkToolkit.Controls.GTK.*" target="lib\net45" />
    </files>
 </package>

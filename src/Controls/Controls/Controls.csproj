@@ -6,6 +6,6 @@
     <RootNamespace>FormsGtkToolkit.Controls</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="2.6.0.103191-nightly" />
+    <PackageReference Include="Xamarin.Forms" Version="2.6.0.174846-nightly" />
   </ItemGroup>
 </Project>
