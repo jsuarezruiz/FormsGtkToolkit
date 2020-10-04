@@ -77,7 +77,9 @@ namespace FormsGtkToolkit.Controls.GTK.Renderers
         private void OnColorSet(object sender, System.EventArgs e)
         {
             var selectedColor = Control.Color;
+            var gdkMaxVal = 65535;
 
+            Element.Color = new Color(selectedColor.Red / (double)gdkMaxVal, selectedColor.Green / (double)gdkMaxVal, selectedColor.Blue / (double)gdkMaxVal, 255);
             Element.SendColorChanged();
         }
     }

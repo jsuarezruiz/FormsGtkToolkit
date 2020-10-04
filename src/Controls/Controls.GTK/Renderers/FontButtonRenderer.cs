@@ -107,6 +107,8 @@ namespace FormsGtkToolkit.Controls.GTK.Renderers
 
         private void OnFontSet(object sender, System.EventArgs e)
         {
+            Element.FontName = Control.FontName;
+
             Element.SendFontChanged();
         }
     }
